@@ -17,23 +17,24 @@ This repository contains code for predicting Cardano (ADA) cryptocurrency prices
 
 ## Background
 
-Briefly describe the purpose and context of your project. Why are you predicting Cardano prices? What are the potential use cases?
+Trying to explore the viability of using RNN, specifically LSTM and GRU models in predicting highly volatile 
+cryptocoin prices such as Cardano
 
 ## Dataset
 
-Provide information about the dataset used for training and testing the models. Include details such as data source, features, and any preprocessing steps applied.
+Dataset consists of daily prices of Cardano since 2017. The dataset contains the opening, closing, highest and lowest
+price on each date as well as the transaction volume. From these data, the opening price for each day is used in this 
+analysis.
 
 ## Models
 
-Explain the LSTM and GRU models used for prediction. Include information about the architecture, hyperparameters, and training process.
-
-## Usage
-
-Provide instructions on how to use the code. Include details about data preprocessing, model training, and making predictions. If there are any scripts or notebooks, mention them here.
+- LSTM
+- GRU
+- Bidirectional LSTM
 
 ## Results
 
-Present the results of the predictions. Include metrics like Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and Mean Absolute Error (MAE). Visualizations, such as plots comparing predicted and true prices, can be added.
+MSE of 0.03582 was accomplished with this analysis.
 
 ## Dependencies
 
