@@ -38,13 +38,9 @@ MSE of 0.03582 was accomplished with this analysis.
 
 ## Dependencies
 
-List the dependencies required to run the code. Include libraries, frameworks, and versions.
-
-## Contributing
-
-Explain how others can contribute to the project. This could include reporting issues, suggesting improvements, or submitting pull requests.
+This project has implemented Python and PyTorch.
 
 ## License
 
-Specify the license under which your code is distributed. Choose an appropriate open-source license.
+MIT License
 
