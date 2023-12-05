@@ -9,7 +9,6 @@ This repository contains code for predicting Cardano (ADA) cryptocurrency prices
 - [Background](#background)
 - [Dataset](#dataset)
 - [Models](#models)
-- [Usage](#usage)
 - [Results](#results)
 - [Dependencies](#dependencies)
 - [License](#license)
